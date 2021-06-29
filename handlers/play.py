@@ -220,7 +220,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)              
     else:
-        await message.reply('𝙉𝙤 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩 𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚𝙨 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙞𝙣 𝙩𝙝𝙞𝙨 𝙂𝙧𝙤𝙪𝙥 𝙉𝙤𝙬 😅')
+        await message.reply('𝙉𝙤 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩 𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚𝙨 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙞𝙣 𝙩𝙝𝙞𝙨 𝙂𝙧𝙤𝙪𝙥 𝙉𝙤𝙬 😂')
 
 @Client.on_message(
     filters.command("player")
@@ -241,7 +241,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply('play'))
     else:
-        await message.reply('𝙉𝙤 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩 𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚𝙨 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙞𝙣 𝙩𝙝𝙞𝙨 𝙂𝙧𝙤𝙪𝙥 𝙉𝙤𝙬 😅')
+        await message.reply('𝙉𝙤 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩 𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚𝙨 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙞𝙣 𝙩𝙝𝙞𝙨 𝙂𝙧𝙤𝙪𝙥 𝙉𝙤𝙬 🤣')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
@@ -340,7 +340,7 @@ async def m_cb(b, cb):
             ) or (
                 callsmusic.pytgcalls.active_calls[chat_id] == 'playing'
             ):
-                await cb.answer('𝘾𝙝𝙖𝙩 𝙞𝙨 𝙣𝙤𝙩 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙤𝙧 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝙥𝙡𝙖𝙮𝙣𝙜 🙄', show_alert=True)
+                await cb.answer('𝘾𝙝𝙖𝙩 𝙞𝙨 𝙣𝙤𝙩 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙤𝙧 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝙥𝙡𝙖𝙮𝙣𝙜 🙃', show_alert=True)
         else:
             callsmusic.pytgcalls.resume_stream(chat_id)
             await cb.answer('𝙈𝙪𝙨𝙞𝙘 𝙍𝙚𝙨𝙪𝙢𝙚𝙙!')     
@@ -444,7 +444,7 @@ async def play(_, message: Message):
                    print(e)
                    await lel.edit(
                        f"<b>User {user.first_name} couldn't join your group! Make sure user is not banned in group."
-                       "\n\nOr manually add @GalaxyAssistant to your Group and try again</b>",
+                       "\n\nOr manually add @QUEEN_ASISTANT to your Group and try again</b>",
                    )
                    pass
     try:
@@ -583,7 +583,7 @@ async def deezer(client: Client, message_: Message):
                    print(e)
                    await lel.edit(
                        f"<b>User {user.first_name} couldn't join your group! Make sure user is not banned in group."
-                       "\n\nOr manually add @GalaxyAssistant to your Group and try again</b>",
+                       "\n\nOr manually add @QUEEN_ASISTANT to your Group and try again</b>",
                    )
                    pass
     try:
@@ -713,7 +713,7 @@ async def jiosaavn(client: Client, message_: Message):
                    print(e)
                    await lel.edit(
                        f"<b>User {user.first_name} couldn't join your group! Make sure user is not banned in group."
-                       "\n\nOr manually add @GalaxyAssistant to your Group and try again</b>",
+                       "\n\nOr manually add @QUEEN_ASISTANT to your Group and try again</b>",
                    )
                    pass
     try:
@@ -757,7 +757,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="𝙅𝙤𝙞𝙣 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙩",
-                   url='https://t.me/GalaxyLanka')
+                   url='https://t.me/slnezukosupport')
              ],
              [       
                InlineKeyboardButton(
